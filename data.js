@@ -50,7 +50,7 @@
         { cat: {en:"Fruit", pl:"Owoce"}, pl: "Arbuz", en: "Watermelon", gs: "arbuza", g: "m", u: ["kg"] },
         { cat: {en:"Fruit", pl:"Owoce"}, pl: "Awokado", en: "Avocado", gs: "awokado", g: "n", u: ["szt"] },
         { cat: {en:"Fruit", pl:"Owoce"}, pl: "Mango", en: "Mango", gs: "mango", g: "n", u: ["szt"] },
-        { cat: {en:"Fruit", pl:"Owoce"}, pl: "Śliwki", en: "Śliwek", gs: "śliwek", g: "f", u: ["kg"] },
+        { cat: {en:"Fruit", pl:"Owoce"}, pl: "Śliwki", en: "Plums", gs: "śliwek", g: "f", u: ["kg"] },
         { cat: {en:"Fruit", pl:"Owoce"}, pl: "Czereśnie", en: "Sweet cherries", gs: "czereśni", g: "f", u: ["kg"] },
 
         // VEGETABLES
