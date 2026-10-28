@@ -20,7 +20,7 @@
         body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); display: flex; flex-direction: column; align-items: center; min-height: 100vh; margin: 0; padding: 0; transition: background 0.3s; }
         .mastery-progress { width: 100%; height: 6px; background: rgba(128,128,128,0.2); position: sticky; top: 0; z-index: 10; }
         #mastery-fill { width: 0%; height: 100%; background: var(--neut); transition: width 0.5s ease; }
-        .card { width: 90%; max-width: 450px; background: var(--card); padding: 25px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); margin-top: 20px; border: 1px solid var(--border); position: relative; }
+        .card { width: 90%; max-width: 450px; box-sizing: border-box; background: var(--card); padding: 25px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); margin-top: 20px; border: 1px solid var(--border); position: relative; }
         .phrase-display { font-size: 1.4rem; text-align: center; min-height: 100px; display: flex; flex-direction: column; justify-content: center; margin: 15px 0; font-weight: 600; }
         .opt-btn { width: 100%; padding: 14px; margin-bottom: 10px; border-radius: 14px; border: 2px solid var(--border); background: var(--card); color: var(--text); cursor: pointer; text-align: left; font-size: 1rem; transition: 0.2s; }
         .opt-btn.correct { background: var(--neut) !important; color: #121212 !important; border-color: var(--neut) !important; font-weight: bold; }
